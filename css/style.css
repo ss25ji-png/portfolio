@@ -950,15 +950,15 @@ nav a:hover::after {
 .tool-icon {
     width: 22px;
     height: 22px;
-    background-color: #ffffff;
+     filter: brightness(0) invert(1);
     border-radius: 4px;
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.figma-icon {
-    background-image: url(../img/imgi_2_figma.png);
+.al-icon {
+    background-image: url(../img/skill_1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -967,12 +967,20 @@ nav a:hover::after {
 }
 
 .photoshop-icon {
-    background-image: url(../img/imgi_3_photoshop.png);
+    background-image: url(../img/skill_2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
+}
+.figma-icon{
+        background-image: url(../img/skill_3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
 }
 
 
