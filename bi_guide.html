@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BI GUIDE</title>
+     <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./img/favicon-96x96.png" type="image/x-icon">
+    <!-- 외부 css 연결 -->
+    <link rel="stylesheet" href="./css/guide_style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <img src="./img/BI/pf0.png" alt="pf0">
+        <img src="./img/BI/pf1.png" alt="pf1">
+        <img src="./img/BI/pf2.png" alt="pf1">
+        <img src="./img/BI/pf3.png" alt="pf1">
+        <img src="./img/BI/pf4.png" alt="pf1">
+        <img src="./img/BI/pf5.png" alt="pf1">
+        <img src="./img/BI/pf5-2.png" alt="pf1">
+        <img src="./img/BI/pf6.png" alt="pf1">
+        <img src="./img/BI/pf7.png" alt="pf1">
+        <img src="./img/BI/pf8.png" alt="pf1">
+    </div>
+
+
+
+    <!-- 스크롤 업 버튼 -->
+    <button id="scroll_up_btn">
+        <img src="./img/upicon.png" alt="업">
+    </button>
+    <!-- 심플 백 버튼 -->
+    <button id="scroll_back_btn">
+        <img src="./img/bicon.png" alt="빽">
+    </button>
+
+
+
+
+    <script src="./js/jquery-4.0.0.min.js"></script>
+    <script>
+
+        const upBtn = document.getElementById("scroll_up_btn");
+        const backBtn = document.getElementById("scroll_back_btn");
+
+
+        upBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+
+        backBtn.addEventListener("click", function () {
+            window.close();
+        });
+    </script>
+
+
+</body>
+
+</html>
